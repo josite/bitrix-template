@@ -1,0 +1,3 @@
+<?
+$sSectionName="Images for website";
+?>

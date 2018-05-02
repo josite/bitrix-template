@@ -1,0 +1,20 @@
+/*
+-------------------------------ENG-------------------------------
+ONLY HERE IT IS POSSIBLE TO INDICATE YOUR STYLES!
+Sometimes it is necessary to add! Important to override styles!
+To change files in the project directory /local/__dev/css/ does not make sense without gulpjs
+To change a file to the address /local/assist/css/style.min.css is strictly not recommended !!!
+Changes to the above files are done through the developer (any) and with the help of the gulpjs task manager - its configuration file is in the root of the /local/
+-------------------------------RUS-------------------------------
+ТОЛЬКО ТУТ МОЖНО УКАЗЫВАТЬ СВОИ СТИЛИ!
+Иногда придется возможно добавить !important для переопределения стилей!
+Изменять файлы в директории проекта /local/__dev/css/ не имеет смысла без gulpjs
+Изменять файл по адресу /local/assist/css/style.min.css строго не рекомендуется!!!
+Изменения вышеупомянутых файлов делаются через разработчика (любого) и с помощью таск-менеджера gulpjs - его конфигурационный файл лежит в корне директории /local/
+*/
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,24 @@
+# FOLDER - Do not forget to uncomment lines!!!
+#/bitrix/
+#/upload/
+#/images/
+#/include/
+#/local/node_modules/
+#/local/include/footer_scripts.php - after install to the root folder website uncomment this line
+#/.htaccess
+
+# FILES - Do not forget to uncomment lines!!!
+#*.sublime-project
+#*.sublime-workspace
+#*.xml
+#*.ini
+#*.rar
+#*.7z
+#*.zip
+#*.gz
+#*.gzip
+#*.tar
+#*.tar-gz
+#*.tgz
+#*.txt
+#web.config
