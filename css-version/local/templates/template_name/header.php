@@ -10,7 +10,7 @@
 	<?require(INC_PATH.'head.php'); ?>
 </head>
 
-<? require(INC_PATH.'iebody.php'); ?>
+<? require(INC_PATH.'body.php'); ?>
 
 <div id="panel"><? //$APPLICATION->ShowPanel();?></div>
 

@@ -13,12 +13,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title><? $APPLICATION->ShowTitle();?></title>
-<?$APPLICATION->ShowMeta("robots")?>
-<?$APPLICATION->ShowMeta("keywords")?>
-<?$APPLICATION->ShowMeta("description")?>
+<?$APPLICATION->ShowHead();?>
 
 <?if($APPLICATION->GetCurDir() === '/'){?>
-	<link rel="canonical" href="http://www.site.name/" />
+<link rel="canonical" href="http://<?=SITE_SERVER_NAME?>/" />
 <?}?>
 
 <!-- ICON -->
@@ -35,11 +33,9 @@
 
 <!-- STYLE -->
 <?$APPLICATION->SetAdditionalCSS(RS_PATH . "css/style.min.css");?>
-<?$APPLICATION->ShowCSS();?>
 
-<!-- JS -->
-<script src=""></script>
+<!-- JS (USE BOTH TYPE) -->
 <?$APPLICATION->AddHeadScript(RS_PATH . "js/jquery-3.3.1.min.js");?>
 <?/* OR USE CJSCore::Init(array("jquery")); */ ?>
 <?$APPLICATION->AddHeadScript(RS_PATH . "js/scrolltotop.min.js");?>
-<?$APPLICATION->AddHeadScript(RS_PATH . "js/common.js");?>
+<script src="<?=RS_PATH?>js/custom.js"></script>

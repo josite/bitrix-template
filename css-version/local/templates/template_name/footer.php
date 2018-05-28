@@ -8,8 +8,6 @@ IncludeTemplateLangFile(__FILE__);
 <?=GetMessage('COPYRIGHT')?>
 <?=GetMessage('DEVELOPER')?>
 
-<?$APPLICATION->ShowHeadStrings();?>
-<?$APPLICATION->ShowHeadScripts();?>
 <? require(INC_PATH.'footer_scripts.php'); ?>
 
 </body>
